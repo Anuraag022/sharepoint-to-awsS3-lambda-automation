@@ -15,8 +15,8 @@ The following diagram should give a concise understanding of how the flow will b
 
 The lambda_handler is the function that aws looks to execute. By defualt in aws it is 'lambda_handler' function which helps in nomenclature is kept the same. 
 
-AWS_ACCESS_KEY_ID = os.environ['aws_access_key']
-To extract System variables
+
+To extract System variables and place them in Objects
 
 <img width="380" alt="image" src="https://github.com/Anuraag022/sharepoint-to-awsS3-lambda-automation/assets/9040716/05df78fa-386c-426f-af21-de2f54928013">
 
