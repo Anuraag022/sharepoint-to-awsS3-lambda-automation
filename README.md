@@ -8,7 +8,8 @@ The following diagram should give a concise understanding of how the flow will b
 <img width="514" alt="image" src="https://github.com/Anuraag022/sharepoint-to-awsS3-lambda-automation/assets/9040716/fd419795-0d45-43ac-a6a6-b0621dcd0225">
 
 
-AWS_ACCESS_KEY_ID = os.environ['aws_access_key']
+<img width="258" alt="image" src="https://github.com/Anuraag022/sharepoint-to-awsS3-lambda-automation/assets/9040716/3da2cae0-5380-4f2e-8733-73ef5e262b55">
+
 The lambda_handler is the function that aws looks to execute. By defualt in aws it is 'lambda_handler' function which helps in nomenclature is kept the same. 
 
 AWS_ACCESS_KEY_ID = os.environ['aws_access_key']
