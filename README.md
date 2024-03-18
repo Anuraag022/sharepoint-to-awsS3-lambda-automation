@@ -17,7 +17,8 @@ To extract System variables
 AWS_ACCESS_KEY_ID = os.environ['aws_access_key']
 Variables that will come from the system and will be set against the objects
 
-SHAREPOINT_FOLDER_NAME = os.environ['sharepoint_folder_name']
+<img width="427" alt="image" src="https://github.com/Anuraag022/sharepoint-to-awsS3-lambda-automation/assets/9040716/02e99e83-2099-4dcc-8b11-6e64b93daac3">
+
 Credentials to download files from
 
 packages to install - 
