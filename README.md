@@ -30,15 +30,25 @@ Office365-REST-Python-Client to interact with sharepoint
 
 How to get the 'requirements' and push it to aws to be run as a packge-
 Open Terminal > 
+
 create venv
+
 pip freeze > requirements.txt
+
 pip install --target ./package -r requirements.txt (packs all packages & dependencies and pushes to 'package')
+
 cd package/
+
 --will have to zip this folder to push as, download the zip.exe to use its functionalities in terminal. Download from - http://stahlworks.com/tool-zipunzip
+
 "C:\Program Files\zip.exe" --will show all the functions within zip.exe
+
 -- We are in the mail folder and now we push all the files in the folder to 'deployment-package-zip' '-r' is recursion which pushes files one by one
+
 "C:\Program Files\zip.exe" -r ../deployment-package.zip .
+
 --also need to move lambda_function.py to the above zip file hence
+
 "C:\Program Files\zip.exe" -g deployment-package.zip lambda_function.py
 
 
